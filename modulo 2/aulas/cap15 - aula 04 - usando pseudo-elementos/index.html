@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: rgb(0, 0, 0);
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .especial::before {
+            content: '⮕';
+
+        }
+
+        .especial::after {
+            content: "⬅";
+        }
+
+        .especial {
+            background-color: rgb(238, 109, 109);
+            width: 112px;
+            border-radius: 5px;
+        }
+        
+        a:hover {
+            text-decoration: underline rgb(187, 255, 0);
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando um link</h1>
+    <ul>
+        <li class="especial"><a href="https://www.youtube.com/@joao_henrique077">meu canal</a></li>
+        <li><a href="https://www.instagram.com/joao_henriquee077">meu instagram</a></li>
+        <li><a href="https://github.com/gustavoguanabara">github gustavo guanabara</a></li>
+    </ul>
+    
+</body>
+</html>
